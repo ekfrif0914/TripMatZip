@@ -12,6 +12,5 @@
 -많은 여행객들이 이 사이트를 이용하여 원하는 맛집을 간편하고 정확하게 찾을 수 있다는 기대효과  
 
 
- 🔗
+ 🔗 https://github.com/ekfrif0914/TripMatZip/blob/main/%EC%97%AC%ED%96%89%EC%A7%80%EB%A7%9B%EC%A7%91%EC%82%AC%EC%9D%B4%ED%8A%B8_spring_%EC%A0%84%EB%AF%BC%EC%A0%95.pdf
 
--
