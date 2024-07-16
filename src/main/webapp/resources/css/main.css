@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+header {
+	width: 100%;
+	height: 140px;
+	background-color: skyblue;
+	border: 2px solid;
+	text-align: center;
+	padding-top:6px;
+	
+}
+
+
+
+
+#insert {
+	width: 400px;
+	height: 80px;
+}
+
+section {
+
+	text-align: center;
+}
+
+.container-fluid {
+	margin-left: 230px;
+}
+
+.d-flex {
+	width: 850px;
+}
+
+#ser {
+	width: 120px;
+	height: 50px;
+}
+
+.container {
+	margin-top: 405px;
+}

@@ -21,8 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="www.silver.hom" />
-	
-	
-	
+	<context:component-scan base-package="www.silver.tripMaster" />
+	<context:component-scan base-package="www.silver.service" />
+	<context:component-scan base-package="www.silver.dao" />
 </beans:beans>

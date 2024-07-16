@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+    background-color:lightgoldenrodyellow;
+}
+   
+  header {
+        width: 100%;
+        height: 140px;
+        background-color: skyblue;
+        border: 2px solid;
+        text-align: center;
+        padding-top: 6px;
+    }
+	
+    section {
+
+        text-align: center;
+    }
+
+    section>span {
+        font-size: xx-large;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        width: 700px;
+        height: 80px;
+        border: 1px solid black;
+    }
+
+    table {
+        margin-left: 280px;
+    }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="www.silver.dao.ReviewDAO">
+	<insert id="insert" parameterType="www.silver.vo.ReviewVO">
+		insert into review values(
+
+		review_cnt.nextval, #{name}, #{region}, #{contents},
+		#{star},#{writer},#{pw}, default
+
+		)
+	</insert>
+	<insert id="cInsert"  parameterType="www.silver.vo.CommentsVO">
+	insert into comments values(#{c_no}, #{c_writer}, #{c_contents})
+	
+	</insert>
+	<select id="search" parameterType="String"
+		resultType="www.silver.vo.ReviewVO">
+		select * from review where name like #{sWord}
+
+		<!-- select * from tb where (column1 || column2 || column3) like '%keyword%' 
+			출처: https://pikabu.tistory.com/67 [피카부:티스토리] -->
+	</select>
+	<delete id="delete" parameterType="String">
+		delete from review where no =
+		#{del}
+	</delete>
+	<select id="updateChang" parameterType="String"
+		resultType="www.silver.vo.ReviewVO">
+
+		select * from review where no= #{up}
+	</select>
+	<update id="update" parameterType="www.silver.vo.ReviewVO">
+		update review set
+		name=#{name}, region=#{region},
+		contents=#{contents}, star=#{star},
+		writer=#{writer}, pw=#{pw} where no=#{no}
+
+	</update>
+	<select id="detail" parameterType="String"
+		resultType="www.silver.vo.ReviewVO">
+		select * from review where no= #{no}
+
+	</select>
+	<select id="comment" parameterType="String" resultType="www.silver.vo.CommentsVO">
+	select * from comments where c_no=#{no} 
+	
+	</select>
+
+
+</mapper>
