@@ -5,7 +5,10 @@
 >
 ## 🚀 프로젝트 기간
 > 2024.05.24 ~ 2024.05.27
->
+
+## 🚀 프로젝트 시연영상
+[시연영상](https://drive.google.com/file/d/1_0j39TZ5YmoUg6IWPsC6otPBsIj1EIiP/view?usp=drive_link)
+
 ## 📋 프로젝트 개요
 - 기획배경: 즐거운 여행에 있어서 여행지에서 무엇을 먹을지는 현대인들에게 더 중요한 관심사 <br>
 - 맛집 탐색에 중점을 둔 사이트<br>
